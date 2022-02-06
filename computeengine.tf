@@ -13,4 +13,3 @@ resource "google_compute_instance" "appserver" {
    network = "default-vpc"
 }
 }
-
