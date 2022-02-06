@@ -7,5 +7,11 @@ resource "google_cloudbuild_trigger" "gcp-upgrade" {
       branch = main
     }
   }
+
+  substitutions = {
+    _FOO = "bar"
+    _BAZ = "qux"
+  }
+  
   filename = "cloudbuild.yaml"
 }
