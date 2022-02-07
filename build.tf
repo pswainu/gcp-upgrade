@@ -7,7 +7,6 @@ resource "google_cloudbuild_trigger" "gcp-upgrade" {
       branch = "dev"
     }
   }
-
   substitutions = {
     _FOO = "bar"
     _BAZ = "qux"
