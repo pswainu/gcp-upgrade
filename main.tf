@@ -1,8 +1,8 @@
 provider "google" {
-  project = var.projectid
-  region = var.region
+  project = "its-it-ct-sajjad-np"
+  region = "us-central1"
+  zone = "us-central1-a"
 }
-
 terraform {
   required_providers {
     google = {
@@ -11,4 +11,3 @@ terraform {
   }
   required_version = ">= 0.13"
 }
-  
