@@ -1,6 +1,6 @@
 
 resource "google_compute_instance" "appserver" {
-  name = "terraform-testing"
+  name = "terraform-testing1"
   machine_type = "f1-micro"
   tags        = ["test"]
   
