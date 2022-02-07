@@ -1,3 +1,4 @@
+/*
 resource "google_compute_instance" "appserver" {
   name = "terraform-upgrade-testing"
   machine_type = "f1-micro"
@@ -13,3 +14,5 @@ resource "google_compute_instance" "appserver" {
    network = "default-vpc"
 }
 }
+
+*/
