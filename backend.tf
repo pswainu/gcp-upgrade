@@ -1,6 +1,7 @@
 
 terraform {
   backend "gcs" {
-   prefix  = "terraform"    
+  bucket = "terraform-upgrade"
+  prefix  = "terraform"    
     }
 }
