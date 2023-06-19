@@ -4,7 +4,7 @@ resource "google_cloudbuild_trigger" "gcp-upgrade" {
     name = "gcp-upgrade"
     owner = "pswainu"
     push {
-      branch = "dev"
+      branch = "^dev$"
     }
   }
   substitutions = {
