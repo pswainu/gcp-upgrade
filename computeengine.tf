@@ -2,7 +2,7 @@
 resource "google_compute_instance" "appserver" {
   name = "terraform-testing2"
   machine_type = "f1-micro"
-  tags        = ["test3"]
+  tags        = ["test2"]
   
 
   boot_disk {
